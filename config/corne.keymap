@@ -41,10 +41,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp LANGUAGE_5  &kp Q  &kp W  &kp E         &kp R  &kp T          &kp Y        &kp U  &kp I          &kp O    &kp P     &kp MINUS
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G          &kp H        &kp J  &kp K          &kp L    &kp SEMI  &kp SQT
-&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B          &kp N        &kp M  &kp COMMA      &kp DOT  &kp FSLH  &kp ESC
-                              &kp LEFT_ALT  &mo 1  &lt 3 SPACE    &lt 3 ENTER  &mo 2  &kp BACKSPACE
+&kp LANG_HIRAGANA  &kp Q  &kp W  &kp E         &kp R  &kp T          &kp Y        &kp U  &kp I                     &kp O    &kp P      &kp BACKSPACE
+&kp LEFT_SHIFT     &kp A  &kp S  &kp D         &kp F  &kp G          &kp H        &kp J  &kp K                     &kp L    &kp MINUS  &kp ENTER
+&kp LCTRL          &kp Z  &kp X  &kp C         &kp V  &kp B          &kp N        &kp M  &kp COMMA                 &kp DOT  &kp FSLH   &kp ESC
+                                 &kp LEFT_ALT  &mo 1  &lt 3 SPACE    &lt 3 ENTER  &mo 2  &kp INT_KATAKANAHIRAGANA
             >;
         };
 
