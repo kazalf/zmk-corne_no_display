@@ -41,10 +41,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp LANG_HIRAGANA  &kp Q  &kp W  &kp E         &kp R  &kp T          &kp Y        &kp U  &kp I                     &kp O    &kp P      &kp BACKSPACE
-&kp LEFT_SHIFT     &kp A  &kp S  &kp D         &kp F  &kp G          &kp H        &kp J  &kp K                     &kp L    &kp MINUS  &kp ENTER
-&kp LCTRL          &kp Z  &kp X  &kp C         &kp V  &kp B          &kp N        &kp M  &kp COMMA                 &kp DOT  &kp FSLH   &kp ESC
-                                 &kp LEFT_ALT  &mo 1  &lt 3 SPACE    &lt 3 ENTER  &mo 2  &kp INT_KATAKANAHIRAGANA
+&kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T          &kp Y        &kp U  &kp I                     &kp O    &kp P      &kp BACKSPACE
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G          &kp H        &kp J  &kp K                     &kp L    &kp MINUS  &kp ENTER
+&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B          &kp N        &kp M  &kp COMMA                 &kp DOT  &kp FSLH   &kp ESC
+                              &kp LEFT_ALT  &mo 1  &lt 3 SPACE    &lt 3 ENTER  &mo 2  &kp INT_KATAKANAHIRAGANA
             >;
         };
 
@@ -58,10 +58,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans    &kp N1           &kp N2          &kp N3           &kp N4           &kp N5             &kp N6           &kp N7  &kp N8      &kp N9  &kp SLASH  &kp BSPC
-&kp HOME  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &rgb_ug RGB_SPI  &kp N4  &kp N5      &kp N6  &kp PLUS   &kp PG_UP
-&kp END   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF    &rgb_ug RGB_EFR  &kp N1  &kp N2      &kp N3  &kp MINUS  &kp PG_DN
-                                           &trans           &trans           &trans             &kp INS          &kp N0  &kp PERIOD
+&trans    &kp N1           &kp N2          &kp N3           &kp N4           &kp N5             &kp N6            &kp N7  &kp N8      &kp N9  &kp SLASH    &kp ASTERISK
+&kp HOME  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &rgb_ug RGB_SPI   &kp N4  &kp N5      &kp N6  &kp KP_PLUS  &kp PG_UP
+&kp END   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF    &rgb_ug RGB_EFR   &kp N1  &kp N2      &kp N3  &kp MINUS    &kp PG_DN
+                                           &trans           &trans           &trans             &kp INT_MUHENKAN  &kp N0  &kp PERIOD
             >;
         };
 
