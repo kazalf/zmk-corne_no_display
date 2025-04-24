@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne, layout_name: default_transform}
 layers:
   QWERTY:
-  - LANG HIRAGANA
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -55,7 +55,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: /, s: '?'}
-  - {t: '$$mdi:backspace$$', type: backspace}
+  - '*'
   - HOME
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
@@ -66,7 +66,7 @@ layers:
   - {t: '4', s: $}
   - {t: '5', s: '%'}
   - {t: '6', s: ^}
-  - +
+  - KP PLUS
   - PG UP
   - END
   - RGB OFF
@@ -83,7 +83,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  - INS
+  - INT MUHENKAN
   - {t: '0', s: )}
   - .
   SYMBOL:
