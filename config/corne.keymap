@@ -41,10 +41,10 @@
             //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
 
             bindings = <
-&kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T          &kp Y        &kp U  &kp I          &kp O    &kp P          &kp BACKSPACE
-&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G          &kp H        &kp J  &kp K          &kp L    &kp SEMICOLON  &kp MINUS
-&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B          &kp N        &kp M  &kp COMMA      &kp DOT  &kp FSLH       &kp ESC
-                              &kp LEFT_ALT  &mo 1  &lt 3 SPACE    &lt 3 ENTER  &mo 2  &kp LA(TILDE)
+&kp TAB         &kp Q  &kp W  &kp E         &kp R  &kp T          &kp Y        &kp U  &kp I                    &kp O    &kp P          &kp BACKSPACE
+&kp LEFT_SHIFT  &kp A  &kp S  &kp D         &kp F  &kp G          &kp H        &kp J  &kp K                    &kp L    &kp SEMICOLON  &kp MINUS
+&kp LCTRL       &kp Z  &kp X  &kp C         &kp V  &kp B          &kp N        &kp M  &kp COMMA                &kp DOT  &kp FSLH       &kp ESC
+                              &kp LEFT_ALT  &mo 1  &lt 3 SPACE    &lt 3 ENTER  &mo 2  &kp LA(INTERNATIONAL_2)
             >;
         };
 
@@ -58,10 +58,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans    &kp N1           &kp N2          &kp N3           &kp N4           &kp N5             &kp N6            &kp N7  &kp N8      &kp N9  &kp SLASH    &kp ASTERISK
-&kp HOME  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &rgb_ug RGB_SPI   &kp N4  &kp N5      &kp N6  &kp KP_PLUS  &kp PG_UP
-&kp END   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF    &rgb_ug RGB_EFR   &kp N1  &kp N2      &kp N3  &kp MINUS    &kp PG_DN
-                                           &trans           &trans           &trans             &kp INT_MUHENKAN  &kp N0  &kp PERIOD
+&trans    &kp N1           &kp N2          &kp N3           &kp N4           &kp N5             &kp N6           &kp N7  &kp N8      &kp N9  &kp SLASH    &kp ASTERISK
+&kp HOME  &bt BT_CLR_ALL   &bt BT_SEL 0    &bt BT_SEL 1     &bt BT_SEL 2     &bt BT_SEL 3       &rgb_ug RGB_SPI  &kp N4  &kp N5      &kp N6  &kp KP_PLUS  &kp PG_UP
+&kp END   &rgb_ug RGB_OFF  &rgb_ug RGB_ON  &rgb_ug RGB_BRI  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF    &rgb_ug RGB_EFR  &kp N1  &kp N2      &kp N3  &kp MINUS    &kp PG_DN
+                                           &trans           &trans           &trans             &trans           &kp N0  &kp PERIOD
             >;
         };
 
@@ -78,17 +78,17 @@
 &trans  &kp EXCL      &kp AT        &kp HASH          &kp DLLR    &kp PRCNT       &kp AMPERSAND  &kp SQT    &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp EQUAL  &kp CARET
 &trans  &none         &none         &none             &none       &none           &kp MINUS      &kp EQUAL  &kp LBKT              &kp RBKT               &kp BSLH   &kp GRAVE
 &trans  &out OUT_USB  &out OUT_BLE  &none             &kp K_FIND  &kp LEFT_WIN    &kp UNDER      &kp PLUS   &kp LBRC              &kp RBRC               &kp PIPE   &kp TILDE
-                                    &kp INT_MUHENKAN  &trans      &kp SPACE       &kp RET        &trans     &trans
+                                    &kp INT_MUHENKAN  &trans      &kp SPACE       &kp RET        &trans     &kp INTERNATIONAL_5
             >;
         };
 
         layer_3 {
             display-name = "Fn";
             bindings = <
-&trans  &kp F1      &kp F2          &kp F3          &kp F4           &kp F5         &kp F6       &kp F7          &kp F8          &kp F9           &kp F10          &kp F11
-&trans  &bt BT_CLR  &trans          &kp UP_ARROW    &sys_reset       &bootloader    &bootloader  &trans          &kp UP_ARROW    &trans           &kp PRINTSCREEN  &kp F12
-&trans  &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                    &trans          &trans           &trans         &trans       &trans          &trans
+&trans  &kp F1      &kp F2          &kp F3          &kp F4           &kp F5         &kp F6       &kp F7          &kp F8               &kp F9           &kp F10          &kp F11
+&trans  &bt BT_CLR  &trans          &kp UP_ARROW    &sys_reset       &bootloader    &bootloader  &trans          &kp UP_ARROW         &trans           &kp PRINTSCREEN  &kp F12
+&trans  &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans       &kp LEFT_ARROW  &kp DOWN_ARROW       &kp RIGHT_ARROW  &kp SCROLLLOCK   &kp PAUSE_BREAK
+                                    &trans          &trans           &trans         &trans       &trans          &kp INTERNATIONAL_5
             >;
         };
     };
