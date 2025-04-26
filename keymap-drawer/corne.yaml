@@ -56,7 +56,7 @@ layers:
   - {t: '9', s: (}
   - {t: /, s: '?'}
   - '*'
-  - HOME
+  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -68,7 +68,7 @@ layers:
   - {t: '6', s: ^}
   - KP PLUS
   - PG UP
-  - END
+  - {t: '$$mdi:transfer$$', type: trans}
   - RGB OFF
   - RGB ON
   - RGB BRI
