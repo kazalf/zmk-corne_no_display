@@ -84,10 +84,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&trans  &kp F1      &kp F2          &kp F3          &kp F4           &kp F5         &kp F6       &kp F7          &kp F8          &kp F9           &kp F10          &kp F11
-&trans  &bt BT_CLR  &trans          &kp UP_ARROW    &sys_reset       &bootloader    &bootloader  &trans          &kp UP_ARROW    &trans           &kp PRINTSCREEN  &kp F12
-&trans  &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans         &trans       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp SCROLLLOCK   &kp PAUSE_BREAK
-                                    &trans          &trans           &trans         &trans       &trans          &trans
+&trans  &kp F1      &kp F2          &kp F3          &kp F4           &kp F5    &kp F6  &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
+&trans  &bt BT_CLR  &trans          &kp UP_ARROW    &trans           &trans    &trans  &trans          &kp UP_ARROW    &trans           &trans   &kp F12
+&trans  &trans      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans    &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &kp PAUSE_BREAK
+                                    &trans          &trans           &trans    &trans  &trans          &trans
             >;
         };
     };
