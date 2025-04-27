@@ -26,6 +26,15 @@
         };
     };
 
+    macros {
+        k_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp N0 &kp N0 &kp N0>;
+            label = "NEW_MACRO";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -56,10 +65,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&trans  &kp N1          &kp N2        &kp N3        &kp N4        &kp N5          &kp N6               &kp N7  &kp N8      &kp N9  &kp SLASH    &kp DELETE
-&trans  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp INTERNATIONAL_6  &kp N4  &kp N5      &kp N6  &kp KP_PLUS  &kp LS(SINGLE_QUOTE)
-&trans  &none           &none         &none         &none         &none           &kp INT_KPJPCOMMA    &kp N1  &kp N2      &kp N3  &kp MINUS    &kp LS(MINUS)
-                                      &trans        &trans        &trans          &trans               &kp N0  &kp PERIOD
+&trans  &kp N1          &kp N2        &kp N3        &kp N4        &kp N5          &kp N6               &kp N7  &kp N8      &kp N9  &kp SLASH     &kp DELETE
+&trans  &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp INTERNATIONAL_6  &kp N4  &kp N5      &kp N6  &kp KP_MINUS  &kp LS(SINGLE_QUOTE)
+&trans  &none           &none         &none         &none         &none           &k_macro             &kp N1  &kp N2      &kp N3  &kp KP_PLUS   &kp LS(MINUS)
+                                      &trans        &trans        &trans          &trans               &kp N0  &kp KP_DOT
             >;
         };
 
