@@ -38,10 +38,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
-  - NUMBER
+  - {t: '$$mdi:keyboard-return$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
-  - SYMBOL
+  - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: INT2, h: INT5}
   NUMBER:
   - {t: '$$mdi:transfer$$', type: trans}
