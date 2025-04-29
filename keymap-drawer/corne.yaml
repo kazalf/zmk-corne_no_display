@@ -56,7 +56,7 @@ layers:
   - {t: '9', s: (}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:bluetooth-off$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
