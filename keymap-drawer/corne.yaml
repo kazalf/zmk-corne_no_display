@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: corne, layout_name: default_transform}
 layers:
   QWERTY:
-  - {t: '$$mdi:keyboard-tab$$', h: '$$mdi:keyboard-esc$$'}
+  - $$mdi:keyboard-tab$$
   - Q
   - W
   - E
@@ -44,7 +44,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', h: SYMBOL}
   - {t: INT2, h: INT5}
   NUMBER:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -87,7 +87,7 @@ layers:
   - {t: '0', s: )}
   - KP DOT
   SYMBOL:
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - '!'
   - '@'
   - '#'
