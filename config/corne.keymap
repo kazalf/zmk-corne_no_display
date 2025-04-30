@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -66,10 +67,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC  &kp N1          &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8      &kp N9  &kp SLASH     &kp DELETE
-&trans   &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp COMMA  &kp N4  &kp N5      &kp N6  &kp KP_MINUS  &kp LS(SINGLE_QUOTE)
-&trans   &bt BT_CLR      &none         &none         &none         &none           &k_macro   &kp N1  &kp N2      &kp N3  &kp KP_PLUS   &kp LS(MINUS)
-                                       &trans        &trans        &trans          &trans     &kp N0  &kp KP_DOT
+&kp ESC            &kp N1          &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8      &kp N9  &kp SLASH     &kp DELETE
+&ext_power EP_ON   &bt BT_CLR_ALL  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp COMMA  &kp N4  &kp N5      &kp N6  &kp KP_MINUS  &kp LS(SINGLE_QUOTE)
+&ext_power EP_OFF  &bt BT_CLR      &none         &none         &none         &none           &k_macro   &kp N1  &kp N2      &kp N3  &kp KP_PLUS   &kp LS(MINUS)
+                                                 &trans        &trans        &trans          &trans     &kp N0  &kp KP_DOT
             >;
         };
 
