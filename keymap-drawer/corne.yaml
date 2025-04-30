@@ -56,7 +56,7 @@ layers:
   - {t: '9', s: (}
   - {t: /, s: '?'}
   - $$mdi:backspace-reverse-outline$$
-  - EP ON
+  - '&soft_off'
   - BT CLR ALL
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -68,7 +68,7 @@ layers:
   - {t: '6', s: ^}
   - KP MINUS
   - {t: Sft+', s: Sft+"}
-  - EP OFF
+  - EP TOG
   - $$mdi:bluetooth-off$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: '$$mdi:minus-circle-outline$$', type: none}
