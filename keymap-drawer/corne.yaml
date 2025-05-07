@@ -160,7 +160,7 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - $$mdi:apple-keyboard-command$$
-  - {t: END, h: toggle}
+  - END
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
