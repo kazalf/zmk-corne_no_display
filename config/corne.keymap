@@ -36,6 +36,20 @@
         };
     };
 
+    combos {
+        compatible = "zmk,combos";
+
+        BT_CLR_ {
+            bindings = <&bt BT_CLR>;
+            key-positions = <37 38 28>;
+        };
+
+        BT_CLR_all {
+            bindings = <&bt BT_CLR_ALL>;
+            key-positions = <38 37 29>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
@@ -66,10 +80,10 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESC  &kp N1  &kp N2        &kp N3        &kp N4        &kp N5            &kp N6     &kp N7  &kp N8      &kp N9  &kp SLASH     &kp DELETE
-&trans   &none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3      &kp COMMA  &kp N4  &kp N5      &kp N6  &kp KP_MINUS  &kp LS(SINGLE_QUOTE)
-&trans   &none   &none         &none         &bt BT_CLR    &bt BT_CLR_ALL    &k_macro   &kp N1  &kp N2      &kp N3  &kp KP_PLUS   &kp LS(MINUS)
-                               &trans        &trans        &trans            &trans     &kp N0  &kp KP_DOT
+&kp ESC  &kp N1  &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8      &kp N9  &kp SLASH     &kp DELETE
+&trans   &none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp COMMA  &kp N4  &kp N5      &kp N6  &kp KP_MINUS  &kp LS(SINGLE_QUOTE)
+&trans   &none   &none         &none         &none         &none           &k_macro   &kp N1  &kp N2      &kp N3  &kp KP_PLUS   &kp LS(MINUS)
+                               &trans        &trans        &trans          &trans     &kp N0  &kp KP_DOT
             >;
         };
 
@@ -93,10 +107,10 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&trans  &kp F1            &kp F2          &kp F3          &kp F4           &kp F5          &kp F6  &kp F7          &kp F8          &kp F9           &kp F10          &kp F11
-&trans  &none             &trans          &kp UP_ARROW    &none            &none           &none   &none           &kp UP_ARROW    &none            &none            &kp F12
-&trans  &kp LS(LEFT_WIN)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_WIN    &none   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp PAUSE_BREAK
-                                          &trans          &trans           &trans          &trans  &trans          &trans
+&trans  &kp F1            &kp F2          &kp F3          &kp F4           &kp F5          &kp F6         &kp F7          &kp F8          &kp F9           &kp F10          &kp F11
+&trans  &none             &trans          &kp UP_ARROW    &none            &none           &kp C_AC_HOME  &none           &kp UP_ARROW    &none            &none            &kp F12
+&trans  &kp LS(LEFT_WIN)  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_GUI    &kt END        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp PAUSE_BREAK
+                                          &trans          &trans           &trans          &trans         &trans          &trans
             >;
         };
     };
