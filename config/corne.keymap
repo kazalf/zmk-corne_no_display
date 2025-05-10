@@ -8,6 +8,7 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -100,7 +101,7 @@
             bindings = <
 &kp TAB  &kp N1  &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8      &kp N9  &kp SLASH     &kp DELETE
 &trans   &none   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3    &kp COMMA  &kp N4  &kp N5      &kp N6  &kp KP_MINUS  &kp LS(SINGLE_QUOTE)
-&trans   &none   &none         &none         &none         &none           &k_macro   &kp N1  &kp N2      &kp N3  &kp KP_PLUS   &kp LS(MINUS)
+&trans   &none   &none         &none         &out OUT_USB  &out OUT_BLE    &k_macro   &kp N1  &kp N2      &kp N3  &kp KP_PLUS   &kp LS(MINUS)
                                &trans        &trans        &trans          &trans     &kp N0  &kp KP_DOT
             >;
         };
