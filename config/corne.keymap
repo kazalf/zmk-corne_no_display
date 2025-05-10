@@ -6,6 +6,7 @@
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -54,6 +55,16 @@
         BT_CLR_all {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <38 37 29>;
+        };
+
+        POWER_OFF {
+            bindings = <&ext_power EP_OFF>;
+            key-positions = <9 16>;
+        };
+
+        POWER_ON {
+            bindings = <&ext_power EP_ON>;
+            key-positions = <9 30>;
         };
     };
 
