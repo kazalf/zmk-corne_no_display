@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
-#include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -66,16 +65,6 @@
         POWER_ON {
             bindings = <&ext_power EP_ON>;
             key-positions = <9 30 10 2>;
-        };
-
-        OUT_USB {
-            bindings = <&out OUT_BLE>;
-            key-positions = <9 5 29>;
-        };
-
-        OUT_USB {
-            bindings = <&out OUT_USB>;
-            key-positions = <9 7 14>;
         };
     };
 
