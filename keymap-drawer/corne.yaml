@@ -175,9 +175,13 @@ layers:
 combos:
 - p: [29, 5, 27]
   k: $$mdi:bluetooth-off$$
+  l: [QWERTY]
 - p: [29, 5, 27, 13]
   k: BT CLR ALL
+  l: [QWERTY]
 - p: [9, 16, 10, 2]
   k: EP OFF
+  l: [QWERTY]
 - p: [9, 30, 10, 2]
   k: EP ON
+  l: [QWERTY]
