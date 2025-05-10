@@ -49,22 +49,22 @@
 
         BT_CLR_ {
             bindings = <&bt BT_CLR>;
-            key-positions = <37 38 28>;
+            key-positions = <29 5 27>;
         };
 
         BT_CLR_all {
             bindings = <&bt BT_CLR_ALL>;
-            key-positions = <38 37 29>;
+            key-positions = <29 5 27 13>;
         };
 
         POWER_OFF {
             bindings = <&ext_power EP_OFF>;
-            key-positions = <9 16>;
+            key-positions = <9 16 10 2>;
         };
 
         POWER_ON {
             bindings = <&ext_power EP_ON>;
-            key-positions = <9 30>;
+            key-positions = <9 30 10 2>;
         };
     };
 
