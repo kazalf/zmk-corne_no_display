@@ -177,3 +177,7 @@ combos:
   k: $$mdi:bluetooth-off$$
 - p: [38, 37, 29]
   k: BT CLR ALL
+- p: [9, 16]
+  k: EP OFF
+- p: [9, 30]
+  k: EP ON
