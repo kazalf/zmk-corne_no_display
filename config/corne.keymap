@@ -51,21 +51,26 @@
         BT_CLR_ {
             bindings = <&bt BT_CLR>;
             key-positions = <29 5 27>;
+            layers = <0>;
+            timeout-ms = <0>;
         };
 
         BT_CLR_all {
             bindings = <&bt BT_CLR_ALL>;
             key-positions = <29 5 27 13>;
+            layers = <0>;
         };
 
         POWER_OFF {
             bindings = <&ext_power EP_OFF>;
             key-positions = <9 16 10 2>;
+            layers = <0>;
         };
 
         POWER_ON {
             bindings = <&ext_power EP_ON>;
             key-positions = <9 30 10 2>;
+            layers = <0>;
         };
     };
 
