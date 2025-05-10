@@ -527,24 +527,6 @@ rect.held, rect.combo.held {
 <tspan x="532" dy="-0.6em">EP</tspan><tspan x="532" dy="1.2em">ON</tspan>
 </text>
 </g>
-<g class="combo combopos-4">
-<path d="M439,77 l243,-39" class="combo"/>
-<path d="M439,77 l-113,-30" class="combo"/>
-<path d="M439,77 l-115,68" class="combo"/>
-<rect rx="6" ry="6" x="425" y="64" width="28" height="26" class="combo"/>
-<text x="439" y="77" class="combo tap">
-<tspan x="439" dy="-0.6em">OUT</tspan><tspan x="439" dy="1.2em">BLE</tspan>
-</text>
-</g>
-<g class="combo combopos-5">
-<path d="M476,54 l205,-17" class="combo"/>
-<path d="M476,54 l94,-16" class="combo"/>
-<path d="M476,54 l-317,35" class="combo"/>
-<rect rx="6" ry="6" x="462" y="41" width="28" height="26" class="combo"/>
-<text x="476" y="54" class="combo tap">
-<tspan x="476" dy="-0.6em">OUT</tspan><tspan x="476" dy="1.2em">USB</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 330)" class="layer-NUMBER">
@@ -823,24 +805,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="518" y="55" width="28" height="26" class="combo"/>
 <text x="532" y="68" class="combo tap">
 <tspan x="532" dy="-0.6em">EP</tspan><tspan x="532" dy="1.2em">ON</tspan>
-</text>
-</g>
-<g class="combo combopos-4">
-<path d="M439,77 l243,-39" class="combo"/>
-<path d="M439,77 l-113,-30" class="combo"/>
-<path d="M439,77 l-115,68" class="combo"/>
-<rect rx="6" ry="6" x="425" y="64" width="28" height="26" class="combo"/>
-<text x="439" y="77" class="combo tap">
-<tspan x="439" dy="-0.6em">OUT</tspan><tspan x="439" dy="1.2em">BLE</tspan>
-</text>
-</g>
-<g class="combo combopos-5">
-<path d="M476,54 l205,-17" class="combo"/>
-<path d="M476,54 l94,-16" class="combo"/>
-<path d="M476,54 l-317,35" class="combo"/>
-<rect rx="6" ry="6" x="462" y="41" width="28" height="26" class="combo"/>
-<text x="476" y="54" class="combo tap">
-<tspan x="476" dy="-0.6em">OUT</tspan><tspan x="476" dy="1.2em">USB</tspan>
 </text>
 </g>
 </g>
@@ -1129,24 +1093,6 @@ rect.held, rect.combo.held {
 <tspan x="532" dy="-0.6em">EP</tspan><tspan x="532" dy="1.2em">ON</tspan>
 </text>
 </g>
-<g class="combo combopos-4">
-<path d="M439,77 l243,-39" class="combo"/>
-<path d="M439,77 l-113,-30" class="combo"/>
-<path d="M439,77 l-115,68" class="combo"/>
-<rect rx="6" ry="6" x="425" y="64" width="28" height="26" class="combo"/>
-<text x="439" y="77" class="combo tap">
-<tspan x="439" dy="-0.6em">OUT</tspan><tspan x="439" dy="1.2em">BLE</tspan>
-</text>
-</g>
-<g class="combo combopos-5">
-<path d="M476,54 l205,-17" class="combo"/>
-<path d="M476,54 l94,-16" class="combo"/>
-<path d="M476,54 l-317,35" class="combo"/>
-<rect rx="6" ry="6" x="462" y="41" width="28" height="26" class="combo"/>
-<text x="476" y="54" class="combo tap">
-<tspan x="476" dy="-0.6em">OUT</tspan><tspan x="476" dy="1.2em">USB</tspan>
-</text>
-</g>
 </g>
 </g>
 <g transform="translate(40, 991)" class="layer-Fn">
@@ -1396,24 +1342,6 @@ rect.held, rect.combo.held {
 <rect rx="6" ry="6" x="518" y="55" width="28" height="26" class="combo"/>
 <text x="532" y="68" class="combo tap">
 <tspan x="532" dy="-0.6em">EP</tspan><tspan x="532" dy="1.2em">ON</tspan>
-</text>
-</g>
-<g class="combo combopos-4">
-<path d="M439,77 l243,-39" class="combo"/>
-<path d="M439,77 l-113,-30" class="combo"/>
-<path d="M439,77 l-115,68" class="combo"/>
-<rect rx="6" ry="6" x="425" y="64" width="28" height="26" class="combo"/>
-<text x="439" y="77" class="combo tap">
-<tspan x="439" dy="-0.6em">OUT</tspan><tspan x="439" dy="1.2em">BLE</tspan>
-</text>
-</g>
-<g class="combo combopos-5">
-<path d="M476,54 l205,-17" class="combo"/>
-<path d="M476,54 l94,-16" class="combo"/>
-<path d="M476,54 l-317,35" class="combo"/>
-<rect rx="6" ry="6" x="462" y="41" width="28" height="26" class="combo"/>
-<text x="476" y="54" class="combo tap">
-<tspan x="476" dy="-0.6em">OUT</tspan><tspan x="476" dy="1.2em">USB</tspan>
 </text>
 </g>
 </g>

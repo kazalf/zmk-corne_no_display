@@ -181,7 +181,3 @@ combos:
   k: EP OFF
 - p: [9, 30, 10, 2]
   k: EP ON
-- p: [9, 5, 29]
-  k: OUT BLE
-- p: [9, 7, 14]
-  k: OUT USB
