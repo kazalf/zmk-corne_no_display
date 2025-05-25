@@ -37,10 +37,10 @@
             label = "NEW_MACRO";
         };
 
-        screen_copy: screen_copy {
+        zenkaku_hankaku: screen_copy {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LS(LEFT_GUI) &kt S>;
+            bindings = <&kt LA(GRAVE) &kt ESCAPE>;
             label = "SCREEN_COPY";
         };
     };
