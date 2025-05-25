@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: INTERNATIONAL 5, h: '$$mdi:apple-keyboard-option$$'}
+  - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - INTERNATIONAL 4
+  - {t: Alt+`, s: Alt+~}
   NUMBER:
   - $$mdi:keyboard-tab$$
   - {t: '1', s: '!'}

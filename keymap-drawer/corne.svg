@@ -451,10 +451,7 @@ rect.held, rect.combo.held {
 <g transform="translate(223, 204)" class="key keypos-36">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-1.2em" style="font-size: 60%">INTERNATI…</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">5</tspan>
-</text>
-<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-8" y="9" height="15" width="15.0" class="key hold glyph mdi:apple-keyboard-option"/>
+<use href="#mdi:apple-keyboard-option" xlink:href="#mdi:apple-keyboard-option" x="-9" y="-13" height="18" width="18.0" class="key tap glyph mdi:apple-keyboard-option"/>
 </g>
 <g transform="translate(284, 212) rotate(15.0)" class="key keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -487,9 +484,8 @@ rect.held, rect.combo.held {
 <g transform="translate(617, 204)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<text x="0" y="-4" class="key tap">
-<tspan x="0" dy="-0.6em" style="font-size: 60%">INTERNATI…</tspan><tspan x="0" dy="1.2em" style="font-size: 60%">4</tspan>
-</text>
+<text x="0" y="-4" class="key tap">Alt+`</text>
+<text x="0" y="-24" class="key shifted">Alt+~</text>
 </g>
 <g class="combo combopos-0">
 <path d="M271,112 l25,28" class="combo"/>
