@@ -38,10 +38,10 @@ layers:
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:apple-keyboard-option$$
-  - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
+  - {t: '$$mdi:backspace$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
-  - {t: '$$mdi:backspace$$', h: SYMBOL}
+  - {t: '$$mdi:backspace-reverse-outline$$', h: SYMBOL}
   - '&zenkaku_hankaku'
   NUMBER:
   - $$mdi:keyboard-tab$$
