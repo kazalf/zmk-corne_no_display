@@ -79,6 +79,11 @@
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
         };
+
+        Maincraft {
+            bindings = <&tog 4>;
+            key-positions = <38 39>;
+        };
     };
 
     keymap {
@@ -147,10 +152,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans          &kp Q   &kp W   &kp E      &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LEFT_SHIFT  &kp A   &kp S   &kp D      &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp LCTRL       &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                                &trans  &kp SPACE  &kp SPACE    &trans  &trans  &trans
+&trans     &trans          &kp Q   &kp W   &kp E      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&kt LSHFT  &kp LEFT_SHIFT  &kp A   &kp S   &kp D      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans     &kp LCTRL       &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans  &kp SPACE  &kp SPACE    &trans  &trans  &trans
             >;
         };
     };
