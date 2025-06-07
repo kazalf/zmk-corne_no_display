@@ -185,7 +185,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
@@ -228,3 +228,5 @@ combos:
 - p: [9, 30]
   k: EP ON
   l: [Fn]
+- p: [38, 39]
+  k: {t: '4', h: toggle}
