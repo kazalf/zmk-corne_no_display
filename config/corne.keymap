@@ -144,5 +144,14 @@
                                         &trans          &trans           &trans          &trans    &trans          &trans
             >;
         };
+
+        layer_4 {
+            bindings = <
+&trans  &trans          &kp Q   &kp W   &kp E      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LEFT_SHIFT  &kp A   &kp S   &kp D      &trans       &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp LCTRL       &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
+                                &trans  &kp SPACE  &kp SPACE    &trans  &trans  &trans
+            >;
+        };
     };
 };
