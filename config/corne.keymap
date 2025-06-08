@@ -81,7 +81,7 @@
         };
 
         Maincraft {
-            bindings = <&tog 4>;
+            bindings = <&tog 0>;
             key-positions = <15 14 16>;
             layers = <3>;
         };
@@ -148,15 +148,6 @@
 &trans   &none          &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none           &kp HOME  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none            &kp F12
 &trans   &kp LS(LG(S))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_GUI    &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp PAUSE_BREAK
                                         &trans          &trans           &trans          &trans    &trans          &trans
-            >;
-        };
-
-        layer_4 {
-            bindings = <
-&kp ESCAPE  &kp NUMBER_2    &kp Q  &kp W         &kp E      &kp N3          &trans  &trans  &trans  &trans  &trans  &trans
-&kt LSHFT   &kp LEFT_SHIFT  &kp A  &kp S         &kp D      &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
-&kt LCTRL   &kp LCTRL       &none  &none         &none      &kp NUMBER_5    &trans  &trans  &trans  &trans  &trans  &trans
-                                   &kp NUMBER_1  &kp SPACE  &kp SPACE       &trans  &trans  &trans
             >;
         };
     };
