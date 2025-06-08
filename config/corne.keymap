@@ -79,12 +79,6 @@
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
         };
-
-        Maincraft {
-            bindings = <&tog 0>;
-            key-positions = <15 14 16>;
-            layers = <3>;
-        };
     };
 
     keymap {
