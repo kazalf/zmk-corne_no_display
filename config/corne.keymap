@@ -82,7 +82,8 @@
 
         Maincraft {
             bindings = <&tog 4>;
-            key-positions = <38 39>;
+            key-positions = <15 14 16>;
+            layers = <3>;
         };
     };
 
@@ -152,10 +153,10 @@
 
         layer_4 {
             bindings = <
-&trans     &trans          &kp Q   &kp W   &kp E      &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&kt LSHFT  &kp LEFT_SHIFT  &kp A   &kp S   &kp D      &trans       &trans  &trans  &trans  &trans  &trans  &trans
-&trans     &kp LCTRL       &trans  &trans  &trans     &trans       &trans  &trans  &trans  &trans  &trans  &trans
-                                   &trans  &kp SPACE  &kp SPACE    &trans  &trans  &trans
+&kp LC(ESCAPE)  &kp NUMBER_2    &kp Q  &kp W         &kp E      &kp N3          &trans  &trans  &trans  &trans  &trans  &trans
+&kt LSHFT       &kp LEFT_SHIFT  &kp A  &kp S         &kp D      &kp NUMBER_4    &trans  &trans  &trans  &trans  &trans  &trans
+&kt LCTRL       &kp LCTRL       &none  &none         &none      &kp NUMBER_5    &trans  &trans  &trans  &trans  &trans  &trans
+                                       &kp NUMBER_1  &kp SPACE  &kp SPACE       &trans  &trans  &trans
             >;
         };
     };
