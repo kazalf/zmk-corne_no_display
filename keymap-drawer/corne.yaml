@@ -173,7 +173,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
-  - Ctl+$$mdi:keyboard-esc$$
+  - $$mdi:keyboard-esc$$
   - '2'
   - Q
   - W
