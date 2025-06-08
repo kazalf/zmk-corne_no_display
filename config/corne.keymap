@@ -79,6 +79,12 @@
             timeout-ms = <100>;
             require-prior-idle-ms = <100>;
         };
+
+        Maincraft {
+            bindings = <&to 4>;
+            key-positions = <14 15 16>;
+            layers = <3>;
+        };
     };
 
     keymap {
@@ -142,6 +148,15 @@
 &trans   &none          &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none           &kp HOME  &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none            &kp F12
 &trans   &kp LS(LG(S))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_GUI    &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp PAUSE_BREAK
                                         &trans          &trans           &trans          &trans    &trans          &trans
+            >;
+        };
+
+        layer_4 {
+            bindings = <
+&kp ESCAPE      &kp NUMBER_3    &kp Q         &kp W         &kp E         &kp NUMBER_4    &trans  &trans  &trans  &trans  &kp F5  &to 0
+&kt LEFT_SHIFT  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp N5          &trans  &trans  &trans  &trans  &trans  &trans
+&kt LCTRL       &kp LCTRL       &kp NUMBER_6  &kp N7        &kp N8        &kp N9          &trans  &trans  &trans  &trans  &trans  &trans
+                                              &kp NUMBER_1  &kp NUMBER_2  &kp SPACE       &trans  &trans  &trans
             >;
         };
     };
