@@ -172,6 +172,49 @@ layers:
   - {type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  '4':
+  - $$mdi:keyboard-esc$$
+  - '3'
+  - Q
+  - W
+  - E
+  - '4'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - F5
+  - {t: QWERTY, h: toggle}
+  - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
+  - $$mdi:apple-keyboard-shift$$
+  - A
+  - S
+  - D
+  - {t: '5', s: '%'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:apple-keyboard-control$$', h: toggle}
+  - $$mdi:apple-keyboard-control$$
+  - '6'
+  - {t: '7', s: '&'}
+  - {t: '8', s: '*'}
+  - {t: '9', s: (}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - '1'
+  - '2'
+  - $$mdi:keyboard-space$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [5, 27, 29]
   k: $$mdi:bluetooth-off$$
@@ -184,4 +227,7 @@ combos:
   l: [Fn]
 - p: [9, 30]
   k: EP ON
+  l: [Fn]
+- p: [14, 15, 16]
+  k: {t: '4', h: toggle}
   l: [Fn]
