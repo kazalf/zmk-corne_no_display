@@ -155,7 +155,7 @@
         layer_4 {
             bindings = <
 &kp ESCAPE      &kp NUMBER_3    &kp Q         &kp W         &kp E         &kp NUMBER_4    &trans          &trans          &trans          &trans           &kp F5  &to 0
-&kt LEFT_SHIFT  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp N5          &msc SCRL_UP    &mkp LCLK       &mmv MOVE_UP    &mkp RCLK        &trans  &trans
+&kt LEFT_SHIFT  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp N5          &msc SCRL_UP    &mkp LCLK       &trans          &mkp RCLK        &trans  &trans
 &kt LCTRL       &kp LCTRL       &kp NUMBER_6  &kp N7        &kp N8        &kp N9          &msc SCRL_DOWN  &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_RIGHT  &trans  &trans
                                               &kp NUMBER_1  &kp NUMBER_2  &kp SPACE       &trans          &mkp LCLK       &mkp RCLK
             >;
