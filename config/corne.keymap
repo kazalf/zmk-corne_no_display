@@ -43,6 +43,20 @@
             bindings = <&kt LA(GRAVE) &kt ESCAPE>;
             label = "SCREEN_COPY";
         };
+
+        SHFT_toggle: layer4OFF {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LSHFT &rgb_ug RGB_TOG>;
+            label = "LAYER4OFF";
+        };
+
+        CTRL_toggle: CTRL_toggle {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kt LCTRL &rgb_ug RGB_TOG>;
+            label = "CTRL_TOGGLE";
+        };
     };
 
     combos {
@@ -153,9 +167,9 @@
 
         layer_4 {
             bindings = <
-&kp ESCAPE      &kp NUMBER_3    &kp Q         &kp W         &kp E         &kp NUMBER_4    &trans  &trans  &trans  &trans  &kp F5  &to 0
-&kt LEFT_SHIFT  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp N5          &trans  &trans  &trans  &trans  &trans  &trans
-&kt LCTRL       &kp LCTRL       &kp NUMBER_6  &kp N7        &kp N8        &kp N9          &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESCAPE      &kp N7          &kp Q         &kp W         &kp E         &kp N8          &trans  &trans  &trans  &trans  &kp F5  &to 0
+&kt LEFT_SHIFT  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp N9          &trans  &trans  &trans  &trans  &trans  &trans
+&kt LCTRL       &kp LCTRL       &kp NUMBER_3  &kp NUMBER_4  &kp N5        &kp NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
                                               &kp NUMBER_1  &kp NUMBER_2  &kp SPACE       &trans  &trans  &trans
             >;
         };
