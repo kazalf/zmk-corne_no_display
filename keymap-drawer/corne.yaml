@@ -185,7 +185,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - F5
   - {t: QWERTY, h: toggle}
-  - {t: '$$mdi:apple-keyboard-shift$$', h: toggle}
+  - '&SHFT_toggle'
   - $$mdi:apple-keyboard-shift$$
   - A
   - S
