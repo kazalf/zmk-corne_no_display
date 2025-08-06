@@ -47,14 +47,14 @@
         SHFT_toggle: SHFT_toggle {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LSHFT &rgb_ug RGB_TOG>;
+            bindings = <&rgb_ug RGB_TOG &kt LSHFT>;
             label = "SHFT_toggle";
         };
 
         CTRL_toggle: CTRL_toggle {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kt LCTRL &rgb_ug RGB_TOG>;
+            bindings = <&rgb_ug RGB_TOG &kt LCTRL>;
             label = "CTRL_TOGGLE";
         };
     };
