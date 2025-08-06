@@ -174,11 +174,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
   - $$mdi:keyboard-esc$$
-  - '3'
+  - {t: '7', s: '&'}
   - Q
   - W
   - E
-  - '4'
+  - {t: '8', s: '*'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -190,7 +190,7 @@ layers:
   - A
   - S
   - D
-  - {t: '5', s: '%'}
+  - {t: '9', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -199,10 +199,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:apple-keyboard-control$$', h: toggle}
   - $$mdi:apple-keyboard-control$$
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
   - '6'
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
