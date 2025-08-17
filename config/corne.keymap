@@ -61,7 +61,11 @@
         calc_macro: calc_macro {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LG(R) &kp C &kp A &kp L &kp C &kp RET>;
+            bindings =
+                <&kp LG(R)>,
+                <&macro_wait_time 300>,
+                <&kp C &kp A &kp L &kp C &kp RET>;
+
             label = "CALC_MACRO";
         };
     };
