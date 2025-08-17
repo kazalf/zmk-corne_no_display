@@ -57,6 +57,13 @@
             bindings = <&rgb_ug RGB_TOG &kt LCTRL>;
             label = "CTRL_TOGGLE";
         };
+
+        calc_macro: calc_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(C) &kp C &kp A &kp L &kp C &kp RET>;
+            label = "CALC_MACRO";
+        };
     };
 
     combos {
@@ -131,7 +138,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8      &kp N9  &kp SLASH     &kp DELETE
+&kp TAB  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8      &kp N9  &kp SLASH     &calc_macro
 &trans   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp COMMA  &kp N4  &kp N5      &kp N6  &kp KP_MINUS  &kp LS(SINGLE_QUOTE)
 &trans   &none         &none         &none         &out OUT_USB  &out OUT_BLE    &k_macro   &kp N1  &kp N2      &kp N3  &kp KP_PLUS   &kp LS(MINUS)
                                      &trans        &trans        &trans          &trans     &kp N0  &kp KP_DOT
