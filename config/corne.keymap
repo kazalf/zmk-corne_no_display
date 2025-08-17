@@ -106,6 +106,12 @@
             key-positions = <14 15 16>;
             layers = <3>;
         };
+
+        explorer {
+            bindings = <&kp LG(E)>;
+            key-positions = <29 3>;
+            layers = <3>;
+        };
     };
 
     keymap {
