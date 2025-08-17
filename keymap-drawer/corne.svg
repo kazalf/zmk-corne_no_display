@@ -1248,6 +1248,12 @@ rect.held, rect.combo.held {
 <text x="196" y="89" class="combo tap layer-activator">4</text>
 </a><text x="196" y="100" class="combo hold">toggle</text>
 </g>
+<g class="combo combopos-5">
+<path d="M252,91 l44,49" class="combo"/>
+<path d="M252,91 l-44,-49" class="combo"/>
+<rect rx="6" ry="6" x="238" y="78" width="28" height="26" class="combo"/>
+<text x="252" y="91" class="combo tap">Gui+E</text>
+</g>
 </g>
 </g>
 <g transform="translate(40, 1321)" class="layer-4">

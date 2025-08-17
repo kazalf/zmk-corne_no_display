@@ -231,3 +231,6 @@ combos:
 - p: [14, 15, 16]
   k: {t: '4', h: toggle}
   l: [Fn]
+- p: [29, 3]
+  k: Gui+E
+  l: [Fn]
