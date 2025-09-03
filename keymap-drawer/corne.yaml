@@ -42,7 +42,7 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - Ctl+$$mdi:keyboard-space$$
+  - {t: 'Ctl+$$mdi:keyboard-space$$', h: LEFT WIN}
   NUMBER:
   - $$mdi:keyboard-tab$$
   - {t: '1', s: '!'}
