@@ -55,7 +55,7 @@ layers:
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: /, s: '?'}
-  - '*'
+  - {t: Sft+8, s: Sft+*}
   - {t: '$$mdi:transfer$$', type: trans}
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {h: '2', s: '$$mdi:bluetooth-connect$$'}
@@ -79,7 +79,7 @@ layers:
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
   - '&calc_macro'
-  - {t: '=', s: +}
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
