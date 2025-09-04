@@ -63,8 +63,10 @@
             #binding-cells = <0>;
             bindings =
                 <&kp LG(R)>,
-                <&macro_wait_time 1500>,
-                <&kp C &kp A &kp L &kp C &kp RET>;
+                <&macro_wait_time 1000>,
+                <&kp C &kp A &kp L &kp C>,
+                <&macro_wait_time 500>,
+                <&kp ENTER>;
 
             label = "CALC_MACRO";
         };
@@ -148,9 +150,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp TAB  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8      &kp N9  &kp SLASH    &kp LS(N8)
+&kp TAB  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8      &kp N9  &kp SLASH    &kp LS(SQT)
 &trans   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp COMMA  &kp N4  &kp N5      &kp N6  &kp KP_PLUS  &kp KP_MINUS
-&trans   &none         &none         &none         &out OUT_USB  &out OUT_BLE    &k_macro   &kp N1  &kp N2      &kp N3  &calc_macro  &kp LEFT_CONTROL
+&trans   &none         &none         &none         &out OUT_USB  &out OUT_BLE    &k_macro   &kp N1  &kp N2      &kp N3  &calc_macro  &kp LS(MINUS)
                                      &trans        &trans        &trans          &trans     &kp N0  &kp KP_DOT
             >;
         };
