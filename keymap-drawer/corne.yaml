@@ -13,7 +13,7 @@ layers:
   - O
   - P
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-option$$
   - A
   - S
   - D
@@ -37,12 +37,12 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  - {t: INT MUHENKAN, h: '$$mdi:apple-keyboard-option$$'}
+  - {t: INT MUHENKAN, h: '$$mdi:apple-keyboard-shift$$'}
   - {t: '$$mdi:backspace-reverse-outline$$', h: NUMBER}
   - {t: '$$mdi:keyboard-space$$', h: Fn}
   - {t: '$$mdi:keyboard-return$$', h: Fn}
   - {t: '$$mdi:backspace$$', h: SYMBOL}
-  - {t: 'Ctl+$$mdi:keyboard-space$$', h: LEFT WIN}
+  - {t: INTERNATIONAL 4, h: LEFT WIN}
   NUMBER:
   - $$mdi:keyboard-tab$$
   - {t: '1', s: '!'}
@@ -85,7 +85,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '0', s: )}
-  - KP DOT
+  - {t: ., s: '>'}
   SYMBOL:
   - $$mdi:keyboard-tab$$
   - '!'
