@@ -44,7 +44,7 @@ layers:
   - {t: '$$mdi:backspace$$', h: SYMBOL}
   - {t: INTERNATIONAL 4, h: LEFT WIN}
   NUMBER:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -87,7 +87,7 @@ layers:
   - {t: '0', s: )}
   - {t: ., s: '>'}
   SYMBOL:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - '!'
   - '@'
   - '#'
@@ -130,7 +130,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   Fn:
-  - $$mdi:keyboard-tab$$
+  - $$mdi:keyboard-esc$$
   - F1
   - F2
   - F3
@@ -230,7 +230,4 @@ combos:
   l: [Fn]
 - p: [14, 15, 16]
   k: {t: '4', h: toggle}
-  l: [Fn]
-- p: [29, 3]
-  k: Gui+E
   l: [Fn]
