@@ -149,9 +149,9 @@ layers:
   - $$mdi:arrow-right-bold$$
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - HOME
-  - $$mdi:arrow-left-bold$$
+  - HOME
   - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - END
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
