@@ -173,7 +173,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:keyboard-esc$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -230,4 +230,4 @@ combos:
   l: [Fn]
 - p: [14, 15, 13]
   k: {t: '4', h: toggle}
-  l: [Fn]
+  l: [NUMBER]
