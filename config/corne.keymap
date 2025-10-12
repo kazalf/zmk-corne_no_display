@@ -64,9 +64,7 @@
             bindings =
                 <&kp LG(R)>,
                 <&macro_wait_time 1000>,
-                <&kp INTERNATIONAL_5 &kp C &kp A &kp L &kp C>,
-                <&macro_wait_time 500>,
-                <&kp ENTER>;
+                <&kp INTERNATIONAL_5 &kp C &kp A &kp L &kp C &kp ENTER>;
 
             label = "CALC_MACRO";
         };
@@ -109,7 +107,7 @@
 
         Maincraft {
             bindings = <&to 4>;
-            key-positions = <14 15 16>;
+            key-positions = <14 15 13>;
             layers = <3>;
         };
     };
@@ -171,19 +169,19 @@
         layer_3 {
             display-name = "Fn";
             bindings = <
-&kp ESCAPE  &kp F1         &kp F2          &kp F3          &kp F4           &kp F5          &kp F6    &kp F7          &kp F8          &kp F9           &kp F10          &kp F11
-&trans      &none          &kp LEFT_ARROW  &kp UP_ARROW    &kp RIGHT_ARROW  &none           &kp HOME  &kp HOME        &kp UP_ARROW    &kp END          &none            &kp F12
-&trans      &kp LS(LG(S))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp LEFT_GUI    &kp END   &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp PAUSE_BREAK
-                                           &trans          &trans           &trans          &trans    &trans          &trans
+&kp ESCAPE  &kp F1         &kp F2          &kp F3          &kp F4           &kp F5           &kp F6         &kp F7          &kp F8          &kp F9           &kp F10          &kp F11
+&trans      &none          &kp HOME        &kp UP_ARROW    &kp END          &kp PAGE_UP      &kp PG_UP      &kp HOME        &kp UP_ARROW    &kp END          &none            &kp F12
+&trans      &kp LS(LG(S))  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PAGE_DOWN    &kp PAGE_DOWN  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp PRINTSCREEN  &kp PAUSE_BREAK
+                                           &trans          &trans           &trans           &trans         &trans          &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&kp ESCAPE    &kp N7          &kp Q         &kp W         &kp E         &kp N8          &trans  &trans  &trans  &trans  &kp F5  &to 0
-&SHFT_toggle  &kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp N9          &trans  &trans  &trans  &trans  &trans  &trans
-&CTRL_toggle  &kp LCTRL       &kp NUMBER_3  &kp NUMBER_4  &kp N5        &kp NUMBER_6    &trans  &trans  &trans  &trans  &trans  &trans
-                                            &kp NUMBER_1  &kp NUMBER_2  &kp SPACE       &trans  &trans  &trans
+&trans  &trans  &trans           &trans           &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &to 0
+&trans  &trans  &trans           &trans           &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mt N5 NUMBER_4  &mt N7 NUMBER_6  &mt N9 N8  &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+                                 &kp NUMBER_1     &kp SPACE  &mt NUMBER_3 NUMBER_2    &trans  &trans  &trans
             >;
         };
     };
