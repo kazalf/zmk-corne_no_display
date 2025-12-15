@@ -180,10 +180,10 @@
 
         layer_4 {
             bindings = <
-&kp ESCAPE  &trans  &trans           &trans           &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &to 0
-&trans      &trans  &trans           &trans           &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans
-&trans      &trans  &mt N5 NUMBER_4  &mt N7 NUMBER_6  &mt N9 N8  &trans                   &trans  &trans  &trans  &trans  &trans  &trans
-                                     &kp NUMBER_1     &kp SPACE  &mt NUMBER_3 NUMBER_2    &trans  &trans  &trans
+&mt ESCAPE TAB  &trans  &trans           &trans           &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &to 0
+&trans          &trans  &trans           &trans           &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans          &trans  &mt N5 NUMBER_4  &mt N7 NUMBER_6  &mt N9 N8  &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+                                         &kp NUMBER_1     &kp SPACE  &mt NUMBER_3 NUMBER_2    &trans  &trans  &trans
             >;
         };
     };
