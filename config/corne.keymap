@@ -9,7 +9,6 @@
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/outputs.h>
-#include <dt-bindings/zmk/pointing.h>
 #include <dt-bindings/zmk/rgb.h>
 
 / {
@@ -181,10 +180,10 @@
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans        &trans     &trans            &trans  &trans  &trans  &trans  &trans  &to 0
-&trans  &trans  &trans  &trans        &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans        &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                        &msc SCRL_UP  &kp SPACE  &msc SCRL_DOWN    &trans  &trans  &trans
+&trans  &trans  &trans  &trans                 &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &to 0
+&trans  &trans  &trans  &trans                 &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans                 &trans     &trans                   &trans  &trans  &trans  &trans  &trans  &trans
+                        &mt NUMBER_3 NUMBER_1  &kp SPACE  &mt NUMBER_4 NUMBER_2    &trans  &trans  &trans
             >;
         };
     };
