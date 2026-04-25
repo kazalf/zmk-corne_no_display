@@ -162,7 +162,7 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE       &kp EXCL         &kp AT           &kp HASH         &kp DLLAR        &kp PRCNT          &kp LS(NUM6)  &kp LS(N7)  &kp LS(N8)         &kp LS(N9)     &kp LS(MINUS)     &kp EQUAL
+&kp ESCAPE       &kp EXCL         &kp AT           &kp HASH         &kp DOLLAR       &kp PRCNT          &kp LS(N6)        &kp LS(N7)  &kp LS(N8)         &kp LS(N9)     &kp LS(MINUS)     &kp EQUAL
 &trans           &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &rgb_ug RGB_BRI  &rgb_ug RGB_SPI  &rgb_ug RGB_EFF    &none             &none       &kp RIGHT_BRACKET  &kp BACKSLASH  &kp LEFT_BRACKET  &kp INT_YEN
 &rgb_ug RGB_TOG  &rgb_ug RGB_HUD  &rgb_ug RGB_SAD  &rgb_ug RGB_BRD  &rgb_ug RGB_SPD  &rgb_ug RGB_EFR    &none             &none       &none              &kp LS(INT1)   &kp SLASH         &kp LS(EQUAL)
                                                    &trans           &trans           &trans             &trans            &trans      &trans
@@ -184,7 +184,7 @@
 &trans  &trans  &trans  &trans        &trans     &trans            &trans  &trans  &trans  &trans  &trans  &to 0
 &trans  &trans  &trans  &trans        &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans        &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                        &msc SCRL_UP  &kp SPACE  &msc SCRL_DOWN    &trans  &trans  &trans
+                         &trans  &kp SPACE   &trans    &trans  &trans  &trans
             >;
         };
     };
