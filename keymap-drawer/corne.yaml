@@ -91,9 +91,9 @@ layers:
   - '!'
   - '@'
   - '#'
-  - $
+  - DLLAR
   - '%'
-  - Sft+6
+  - Sft+NUM6
   - {t: Sft+7, s: Sft+&}
   - {t: Sft+8, s: Sft+*}
   - {t: Sft+9, s: Sft+(}
