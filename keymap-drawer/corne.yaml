@@ -209,9 +209,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MSCRL_UP'
+  - '&mkp SCRL_UP'
   - $$mdi:keyboard-space$$
-  - '&mkp MSCRL_DOWN'
+  - '&mkp SCRL_DOWN'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
