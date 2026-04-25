@@ -184,7 +184,7 @@
 &trans  &trans  &trans  &trans        &trans     &trans            &trans  &trans  &trans  &trans  &trans  &to 0
 &trans  &trans  &trans  &trans        &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans        &trans     &trans            &trans  &trans  &trans  &trans  &trans  &trans
-                    &mkp SCRL_UP     &kp SPACE  &mkp SCRL_DOWN    &trans  &trans  &trans
+                    &mkp MOUSE_SCROLL_UP  &kp SPACE  &mkp MOUSE_SCROLL_DOWN    &trans  &trans  &trans
             >;
         };
     };
