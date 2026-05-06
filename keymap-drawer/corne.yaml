@@ -209,12 +209,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - PgUp
+  - '1'
   - $$mdi:keyboard-space$$
-  - PgDn
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - '2'
+  - '3'
+  - '4'
+  - {t: '5', s: '%'}
 combos:
 - p: [5, 27, 29]
   k: $$mdi:bluetooth-off$$
