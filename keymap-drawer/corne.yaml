@@ -230,4 +230,3 @@ combos:
   l: [Fn]
 - p: [13, 15, 14]
   k: {t: '4', h: toggle}
-  l: [NUMBER]
