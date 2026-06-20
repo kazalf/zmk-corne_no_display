@@ -71,17 +71,6 @@
 
             label = "CALC_MACRO";
         };
-
-        Fortnite_sliding: Fortnite_sliding {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp LEFT_SHIFT>,
-                <&macro_wait_time 1>,
-                <&kp LEFT_CONTROL>;
-
-            label = "FORTNITE_SLIDING";
-        };
     };
 
     combos {
@@ -119,10 +108,10 @@
             require-prior-idle-ms = <100>;
         };
 
-        Maincraft {
-            bindings = <&to 4>;
-            key-positions = <14 15 16>;
-            layers = <3>;
+        game {
+            bindings = <&mo 4>;
+            key-positions = <13 15 14>;
+            layers = <1>;
         };
     };
 
@@ -192,10 +181,10 @@
 
         layer_4 {
             bindings = <
-&kp ESC            &kp TAB           &kp Q  &kp W         &kp E         &kp R        &kp B         &trans        &trans  &trans  &trans  &to 0
-&trans             &kp LEFT_SHIFT    &kp A  &kp S         &kp D         &kp F        &trans        &trans        &trans  &trans  &trans  &trans
-&Fortnite_sliding  &kp LEFT_CONTROL  &kp Z  &kp X         &kp C         &kp V        &trans        &trans        &kp B   &trans  &trans  &trans
-                                            &kp NUMBER_1  &kp NUMBER_2  &kp SPACE    &kp NUMBER_3  &kp NUMBER_4  &kp N5
+&trans  &trans  &trans  &trans        &trans     &trans          &trans        &trans        &trans  &trans  &trans  &to 0
+&trans  &trans  &trans  &trans        &trans     &trans          &trans        &trans        &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans     &trans          &trans        &trans        &trans  &trans  &trans  &trans
+                        &kp NUMBER_1  &kp SPACE  &kp NUMBER_2    &kp NUMBER_3  &kp NUMBER_4  &kp N5
             >;
         };
     };
