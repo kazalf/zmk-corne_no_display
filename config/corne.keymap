@@ -37,40 +37,6 @@
             bindings = <&kp N0 &kp N0 &kp N0>;
             label = "NEW_MACRO";
         };
-
-        zenkaku_hankaku: screen_copy {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kt LA(GRAVE) &kt ESCAPE>;
-            label = "SCREEN_COPY";
-        };
-
-        SHFT_toggle: SHFT_toggle {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_TOG &kt LSHFT>;
-            label = "SHFT_toggle";
-        };
-
-        CTRL_toggle: CTRL_toggle {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&rgb_ug RGB_TOG &kt LCTRL>;
-            label = "CTRL_TOGGLE";
-        };
-
-        calc_macro: calc_macro {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp LG(R)>,
-                <&macro_wait_time 100>,
-                <&kp INTERNATIONAL_5>,
-                <&macro_wait_time 0>,
-                <&kp C &kp A &kp L &kp C &kp ENTER>;
-
-            label = "CALC_MACRO";
-        };
     };
 
     combos {
@@ -145,9 +111,9 @@
             //                    | GUI |     | SPC |   | ENT |     | ALT |
 
             bindings = <
-&kp ESCAPE  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8   &kp N9  &kp SLASH    &kp LS(SQT)
-&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp COMMA  &kp N4  &kp N5   &kp N6  &kp KP_PLUS  &kp KP_MINUS
-&trans      &none         &none         &none         &out OUT_USB  &out OUT_BLE    &k_macro   &kp N1  &kp N2   &kp N3  &calc_macro  &kp LS(MINUS)
+&kp ESCAPE  &kp N1        &kp N2        &kp N3        &kp N4        &kp N5          &kp N6     &kp N7  &kp N8   &kp N9  &kp SLASH      &kp LS(SQT)
+&trans      &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &kp COMMA  &kp N4  &kp N5   &kp N6  &kp KP_PLUS    &kp KP_MINUS
+&trans      &none         &none         &none         &out OUT_USB  &out OUT_BLE    &k_macro   &kp N1  &kp N2   &kp N3  &kp C_AL_CALC  &kp LS(MINUS)
                                         &trans        &trans        &trans          &trans     &kp N0  &kp DOT
             >;
         };
