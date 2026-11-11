@@ -219,15 +219,6 @@ combos:
 - p: [5, 27, 29]
   k: $$mdi:bluetooth-off$$
   l: [Fn]
-- p: [29, 5, 27, 13]
-  k: BT CLR ALL
-  l: [Fn]
-- p: [9, 16]
-  k: EP OFF
-  l: [Fn]
-- p: [9, 30]
-  k: EP ON
-  l: [Fn]
 - p: [13, 15, 14]
   k: {t: '4', h: toggle}
   l: [NUMBER]
